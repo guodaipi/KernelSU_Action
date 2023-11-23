@@ -1,8 +1,6 @@
 name: Build Kernel Stellaris
 on:
   workflow_dispatch:
-  schedule:
-      - cron: '0 21 * * 2,6'
       
 jobs:
   build:
